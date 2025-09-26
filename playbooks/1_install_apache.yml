@@ -1,6 +1,6 @@
 ---
 - name: Install and Start Apache
-  hosts: all
+  hosts: linux
   become: yes
   tasks:
     - name: Install Apache
